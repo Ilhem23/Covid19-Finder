@@ -1,8 +1,8 @@
 {
-  "name": "tharwa-backend",
+  "name": "Covid19Finder-backend",
   "version": "0.0.0",
   "description": "Online mobile Banking application (server-side app)",
-  "author": "Tharwa Team <contact@tharwa.com>",
+  "author": "Covid19Finder Team <contact@Covid19Finder.com>",
   "private": true,
   "license": "UNLICENSED",
   "engines": {
