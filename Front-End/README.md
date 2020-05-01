@@ -1,4 +1,4 @@
-#  Tharwa Mobile Application
+#  Covid19-Finder Application
 
 * Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
 
