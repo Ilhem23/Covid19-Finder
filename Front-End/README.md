@@ -14,9 +14,9 @@ Install the following :
 To get started, run the following commands : 
 
 ```bash
-git clone https://github.com/emGiin/tharwa-mobile
-cd tharwa-web
-git checkout develop
+git clone https://github.com/Ilhem23/Covid19-Finder.git
+cd Front-End
+
 yarn
 # or use npm
 npm install
