@@ -8,7 +8,7 @@ const metrics = {
   marginVertical: 10,
   section: 25,
   baseMargin: 10,
-  doubleBaseMargin: 20,
+  doubleBaseMargin: 30,
   smallMargin: 5,
   doubleSection: 50,
   horizontalLineHeight: 1,
@@ -27,7 +27,7 @@ const metrics = {
     small: 20,
     medium: 40,
     large: 60,
-    logo: 200
+    logo: 300
   }
 }
 
