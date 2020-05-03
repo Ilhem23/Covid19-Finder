@@ -22,3 +22,22 @@ allprojects {
         }
     }
 }
+ext {
+  compileSdkVersion = 29
+  targetSdkVersion = 29
+  buildToolsVersion = "29.0.3"
+  supportLibVersion = "29.0.0-rc02"
+  googlePlayServicesVersion = "15.0.1"
+  oreoEXPERIMENTAL = "yes"
+}
+
+subprojects {
+    afterEvaluate {project ->
+        if (project.hasProperty("android")) {
+            android {
+                compileSdkVersion 29
+                buildToolsVersion '29.0.3'
+            }
+        }
+    }
+}
