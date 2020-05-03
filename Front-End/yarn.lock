@@ -769,13 +769,6 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@react-native-community/push-notification-ios@^1.0.1":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@react-native-community/push-notification-ios/-/push-notification-ios-1.2.0.tgz#3353598450a39c42d079603aad2d1c0f9c2c1729"
-  integrity sha512-B5qPb9P/6vvxGGQDePlK/q6NxoZPWSVFtKCQ9jlboP7gNZmf3AAyBhTzrb++s2NSXXogjkGi6vt9df1ipZiawQ==
-  dependencies:
-    invariant "^2.2.4"
-
 "@storybook/addon-actions@^3.3.13":
   version "3.3.13"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-3.3.13.tgz#6ba603e5254ab01d16f9ff97c1656f3746710059"
@@ -9094,18 +9087,6 @@ react-native-pulse@^1.0.6:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/react-native-pulse/-/react-native-pulse-1.0.7.tgz#5a8dc60cb6585f90ce8400beb74fbf89e5f7cd1b"
   integrity sha512-PQvek/hC2YZddzJgyJT9FZbg37eZKl1rcYNlHbSItL3XZ0n3zF5jxFRrYLyGqHnRuRPHoY7qnrdHe4qVwy3Jnw==
-
-react-native-push-notification@^3.0.2:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/react-native-push-notification/-/react-native-push-notification-3.3.1.tgz#318492cab079872f68988348d3331d9c4fcd871a"
-  integrity sha512-Mn28c3gos5y4kWLz9vP/VzO6GpEOMNVGrSleqnf3I0+6eiALQWs+BtyBwH+7wIn0ztDYclh5vQRjyy6b3vya7g==
-  dependencies:
-    "@react-native-community/push-notification-ios" "^1.0.1"
-
-react-native-pusher-push-notifications@^1.2.2:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/react-native-pusher-push-notifications/-/react-native-pusher-push-notifications-1.3.0.tgz#148fe0e40ea37b29c733c9d8ec77616b99292710"
-  integrity sha512-7qLTIOvjeDAMa6+BXxCozsgHvq4mzK5tB+fWmf83duwqUQwwNiS0lfB1s7Bh3h/1JZLnyTqi/0EeS1lcrMwrzw==
 
 react-native-safe-area-view@^0.7.0:
   version "0.7.0"
