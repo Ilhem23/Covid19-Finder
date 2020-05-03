@@ -1,4 +1,4 @@
-package com.tharwamobile;
+package com.covid19finder;
 
 import android.app.Application;
 

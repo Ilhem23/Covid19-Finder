@@ -1,3 +1,3 @@
-rootProject.name = 'TharwaMobile'
+rootProject.name = 'covid19finder'
 
 include ':app'
