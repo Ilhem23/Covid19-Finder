@@ -1,12 +1,16 @@
 import { combineReducers } from 'redux'
 import configureStore from './CreateStore'
 import rootSaga from '../Sagas/'
+import { reducer as form } from 'redux-form'
+import { reducer as nav } from './NavigationRedux'
+import { reducer as auth } from './AuthRedux'
+import { reducer as pinCode } from './PinCodeRedux'
+import { reducer as account } from './AccountRedux'
+
 
 /* ------------- Assemble The Reducers ------------- */
 export const reducers = combineReducers({
-  nav: require('./NavigationRedux').reducer,
-  github: require('./GithubRedux').reducer,
-  search: require('./SearchRedux').reducer
+  form, nav, auth, pinCode,account
 })
 
 export default () => {

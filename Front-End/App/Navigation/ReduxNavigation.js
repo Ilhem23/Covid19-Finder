@@ -2,19 +2,17 @@ import React from 'react'
 import * as ReactNavigation from 'react-navigation'
 import { connect } from 'react-redux'
 import AppNavigation from './AppNavigation'
-
-// for react-navigation 1.0.0-beta.30
 import {
   createReduxBoundAddListener,
   createReactNavigationReduxMiddleware,
 } from 'react-navigation-redux-helpers';
 
-const middleware = createReactNavigationReduxMiddleware(
+// const middleware = createReactNavigationReduxMiddleware(
+createReactNavigationReduxMiddleware(
   "root",
   state => state.nav,
 );
 const addListener = createReduxBoundAddListener("root");
-// end for react-navigation 1.0.0-beta.30
 
 
 function ReduxNavigation(props) {
@@ -22,7 +20,7 @@ function ReduxNavigation(props) {
   const navigation = ReactNavigation.addNavigationHelpers({
     dispatch,
     state: nav,
-    addListener // <-- add this as well
+    addListener
   })
 
   return <AppNavigation navigation={navigation} />
