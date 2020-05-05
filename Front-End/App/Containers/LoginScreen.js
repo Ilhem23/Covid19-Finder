@@ -55,7 +55,7 @@ class LoginScreen extends Component {
   }
 
   goToSignUpPage = () => {
-    this.props.navigation.navigate('RegisterScreen');
+    this.props.navigation.navigate('MainScreen');
   }
 
   renderConfirmationMethod = (fetching) => (

@@ -99,5 +99,8 @@
   "pendingMicroTransferDetails": "En attente du micro virement par la technologie NFC, veuiller patienter",
   "pending": "Attente En cours...",
   "microTransferReceiverDetails": "Vous allez effectuer un micro virement vers le client Tharwa suivant, veuillez vérifier les informations reçu",
-  "maxAmountError": "Montant max est de "
+  "maxAmountError": "Montant max est de ",
+  "questionfeel": "How are you feeling today?",
+  "getchecked": "Get Checked",
+  "numberUpdate": "516 Covid19 new cases in your area"
 }

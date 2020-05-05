@@ -23,7 +23,8 @@ const colors = {
   banner: '#5F3E63',
   text: '#E0D7E5',
   status: '#005662',
-  button: '#16a085'
+  button: '#16a085',
+  verte: '#629185'
 }
 
 export default colors

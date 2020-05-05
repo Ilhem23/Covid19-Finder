@@ -3,32 +3,19 @@ import { Fonts, Colors, Metrics } from '../../Themes/'
 
 export default StyleSheet.create({
   button: {
-    height: 70,
-    width: 200,
-    left: 30,
+    height: 80,
     borderRadius: 30,
-    marginTop: 20,
+    marginTop: 80,
     marginHorizontal: Metrics.section,
     marginVertical: Metrics.baseMargin,
-    backgroundColor: Colors.snow,
+    backgroundColor: Colors.verte,
     justifyContent: 'center'
   },
   buttonText: {
-    color: Colors.verte,
+    color: Colors.snow,
     textAlign: 'center',
     fontWeight: 'bold',
     fontSize: Fonts.size.medium,
-    fontSize: 15,
     marginVertical: Metrics.baseMargin
-  },
-   inputIcon: {
-    color: Colors.verte,
-    fontSize: 30
-  },
-   inputTxt: {
-    // marginTop: 10,
-    height: 80,
-    borderColor: Colors.transparent,
-
   }
 })

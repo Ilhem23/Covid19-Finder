@@ -3,7 +3,8 @@ import {
   RegisterScreen,
   PinCodeScreen,
   LoginScreen,
-  LaunchScreen
+  LaunchScreen,
+  MainScreen
 } from '../Containers'
 
 import styles from './Styles/NavigationStyles'
@@ -16,7 +17,8 @@ const PrimaryNav = StackNavigator(
     RegisterScreen: { screen: RegisterScreen, ...headerHidden },
     PinCodeScreen: { screen: PinCodeScreen, ...headerHidden },
     LoginScreen: { screen: LoginScreen, ...headerHidden },
-    LaunchScreen: { screen: LaunchScreen, ...headerHidden }
+    LaunchScreen: { screen: LaunchScreen, ...headerHidden },
+    MainScreen: { screen: MainScreen, ...headerHidden }
     
   }, {
     // Default config for all screens

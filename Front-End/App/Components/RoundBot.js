@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { TouchableOpacity, Text, View } from 'react-native'
-import { Item } from 'native-base'
-import styles from './Styles/RoundedButtonStyles'
+import { Icon } from 'native-base';
+import styles from './Styles/RoundBotStyles'
 import ExamplesRegistry from '../Services/ExamplesRegistry'
 
 // Note that this file (App/Components/RoundedButton) needs to be
@@ -18,7 +18,7 @@ ExamplesRegistry.addComponentExample('Rounded Button', () =>
   />
 )
 
-class RoundedButton extends Component {
+class RoundBot extends Component {
   static propTypes = {
     onPress: PropTypes.func,
     text: PropTypes.string,
@@ -33,12 +33,14 @@ class RoundedButton extends Component {
 
   render() {
     return (
-     
+      
       <TouchableOpacity style={styles.button} onPress={this.props.onPress}>
+        <View>
          <Text style={styles.buttonText}>{this.getText()}</Text>
+     </View>
       </TouchableOpacity>
     )
   }
 }
 
-export { RoundedButton }
+export { RoundBot }
